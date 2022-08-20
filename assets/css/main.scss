@@ -6,3 +6,12 @@
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+.project-tagline{
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
+
+.details ul{
+    padding-inline-start: 1.5em;
+}
